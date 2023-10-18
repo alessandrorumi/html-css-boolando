@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -98,6 +99,11 @@ nav {
 
 .img-hidden {
   display: none;
+}
+
+.img-vedo:hover .img-hidden {
+  display: block;
+  z-index: 10;
 }
 
 main i {
