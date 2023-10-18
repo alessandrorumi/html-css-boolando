@@ -101,9 +101,13 @@ nav {
   display: none;
 }
 
-.img-vedo:hover .img-hidden {
+.images:hover .img-hidden {
   display: block;
   z-index: 10;
+}
+
+.images:hover .img-shown{
+  display: none;
 }
 
 main i {
@@ -125,7 +129,7 @@ main i {
 .sustainability {
   position: absolute;
   bottom: 100px;
-  left: 50px;
+  left: 55px;
   color: white;
   background-color: green;
   font-size: 14px;
