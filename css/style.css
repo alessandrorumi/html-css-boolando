@@ -1,3 +1,5 @@
+/* Stili Generali */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,15 +9,57 @@
 main {
   width: 70%;
   margin: 0 auto;
+  padding-top: 80px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+i {
+  margin-left: 5px;
+  color: white;
 }
 
 /* Stile Header */
 
 header {
-  background-color: darkorange;
+  background-color: rgb(255, 102, 0);
   height: 80px;
+  width: 100%;
+  margin-bottom: 80px;
   display: flex;
   align-items: center;
+  position: fixed;
+  z-index: 200;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-middle img {
+  height: 50%;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 /* Stile Nav */
@@ -29,16 +73,10 @@ nav {
 
 .nav-left, .nav-right {
   width: 25%;
-  /* DEBUG */
-  height: 100%;
-  border: 1px solid black;
 }
 
 .nav-middle {
   width: 50%;
-  /* DEBUG */
-  height: 100%;
-  border: 1px solid black;
 }
 
 /* Stile Main */
