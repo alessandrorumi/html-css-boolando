@@ -103,6 +103,35 @@ main i {
   right: 15px;
 }
 
+.discount {
+  position: absolute;
+  bottom: 100px;
+  color: white;
+  background-color: red;
+  font-size: 14px;
+  padding: 2px 8px;
+}
+
+.sustainability {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  color: white;
+  background-color: green;
+  font-size: 14px;
+  padding: 2px 8px;
+}
+
+.item.esprit .sustainability {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  color: white;
+  background-color: green;
+  font-size: 14px;
+  padding: 2px 8px;
+}
+
 /* Stile Footer */
 
 footer {
