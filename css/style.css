@@ -117,7 +117,7 @@ main i {
   right: 15px;
 }
 
-.discount {
+.sale {
   position: absolute;
   bottom: 100px;
   color: white;
@@ -144,6 +144,25 @@ main i {
   background-color: green;
   font-size: 14px;
   padding: 2px 8px;
+}
+
+.brand {
+  font-size: 11px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.price {
+  font-size: 11px;
+  color: red;
+  font-weight: bold;
+}
+ 
+#discount {
+  color: black;
+  text-decoration: line-through;
 }
 
 /* Stile Footer */
