@@ -28,6 +28,10 @@ i {
   color: white;
 }
 
+.item img {
+  width: 100%;
+}
+
 /* Stile Header */
 
 header {
@@ -85,10 +89,18 @@ nav {
   width: calc((100% / 3) - 20px);
   float: left;
   margin: 50px 10px;
-  background: lightgray;
-  /* DEBUG */
-  height: 400px;
-  border: 1px solid black;
+  position: relative;
+}
+
+.img-hidden {
+  display: none;
+}
+
+main i {
+  color: black;
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
 /* Stile Footer */
