@@ -32,6 +32,10 @@ i {
   width: 100%;
 }
 
+h3 {
+  color: white;
+}
+
 /* Stile Header */
 
 header {
@@ -136,7 +140,7 @@ main i {
 
 footer {
   background-color: rgb(26, 26, 26);
-  height: 60px;
+  height: 80px;
   width: 100%;
   clear: both;
 }
@@ -149,8 +153,34 @@ footer .container {
   height: 100%
 }
 
-.footer-left, .footer-right {
+.footer-left {
   width: 50%;
-  /* DEBUG */
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+footer li {
+  font-weight: normal;
+}
+
+footer i {
+  background-color: white;
+  color: black;
+}
+
+.footer-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  margin-top: 5px;
+  padding: 0 5px;
 }
