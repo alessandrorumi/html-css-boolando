@@ -111,10 +111,23 @@ nav {
 }
 
 main i {
-  color: black;
+  color: red;
   position: absolute;
   top: 15px;
   right: 15px;
+  font-size: 22px;
+}
+
+main .fa-solid.fa-heart {
+  display: none;
+}
+
+.images:hover ~ .fa-solid.fa-heart {
+  display: block;
+}
+
+.images:hover ~ .fa-regular.fa-heart {
+  display: none;
 }
 
 .sale {
