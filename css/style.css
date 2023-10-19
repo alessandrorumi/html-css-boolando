@@ -90,9 +90,13 @@ nav {
 
 /* Stile Main */
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .item {
   width: calc((100% / 3) - 20px);
-  float: left;
   margin: 50px 10px;
   position: relative;
 }
@@ -184,7 +188,6 @@ footer {
   background-color: rgb(26, 26, 26);
   height: 80px;
   width: 100%;
-  clear: both;
 }
 
 footer .container {
@@ -196,7 +199,6 @@ footer .container {
 }
 
 .footer-left {
-  width: 50%;
   display: flex;
   align-items: center;
 }
@@ -211,18 +213,11 @@ footer i {
 }
 
 .footer-right {
-  width: 50%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
 }
 
 .social {
   margin-top: 5px;
-  padding: 0 5px;
+  padding: 0 10px;
 }
